@@ -1,5 +1,8 @@
 import streamlit as st
 from rag_chain import get_answer
+import time
+
+
 
 # Configuração da página
 st.set_page_config(page_title="Chatbot vestibular Unicamp", layout="centered")
@@ -22,16 +25,20 @@ if prompt := st.chat_input("Faça uma pergunta sobre o vestibular Unicamp 2025:"
     # Exibir mensagem do usuário
     with st.chat_message("user", avatar="👤"):
         st.markdown(prompt)
-    
+    # inicia o contador de tempo de resposta
+    start = time.time()
     # Gerar resposta
     with st.spinner("Pensando..."):
         resposta = get_answer(prompt)
-    
+    # Fim do contador de tempo de resposta
+    end = time.time()
+
     # Adicionar resposta ao histórico
     st.session_state.messages.append({"role": "assistant", "content": resposta})
     
     # Exibir resposta
     with st.chat_message("assistant", avatar="🤖"):
+        st.caption(f"🕒 Tempo de resposta: {end - start:.2f} segundos")
         st.markdown(resposta)
 
 
