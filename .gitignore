@@ -3,14 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Ignorar arquivos de banco de dados SQLite
-*.sqlite3
-*.db
-*.sqlite
-*.db-journal
-*.db-wal
-*.db-shm
-
 # Ignorar ambiente virtual (opcional)
 venv/
 .env
+
+#tudo que esta dentro dos dados gerados
+chroma_db/
