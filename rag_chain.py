@@ -25,7 +25,7 @@ def get_answer(user_input):
     context = "\n\n".join([doc.page_content for doc in docs])
 
     prompt = ChatPromptTemplate.from_template("""
-    Você é um assistente que irá responder perguntas e dúvidas sobre o vestibular da unicamp 2025..
+    Você é um assistente que irá responder perguntas e dúvidas sobre o vestibular da unicamp 2025.
 
     Contexto:
     {context}
