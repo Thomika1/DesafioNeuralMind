@@ -6,3 +6,4 @@ python-dotenv==1.1.0
 streamlit==1.44.1
 fastembed
 chromadb
+sqlite3 >= 3.35.0
