@@ -1,3 +1,11 @@
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
+import sqlite3
+sqlite3.sqlite_version  # Força a verificação
+
+
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter as sp
 from langchain_community.vectorstores import Chroma
