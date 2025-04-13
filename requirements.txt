@@ -5,3 +5,4 @@ langchain_groq==0.3.2
 python-dotenv==1.1.0
 streamlit==1.44.1
 fastembed
+chromadb
