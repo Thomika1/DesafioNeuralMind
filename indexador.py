@@ -2,6 +2,13 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter as sp
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import FastEmbedEmbeddings as em # ou HuggingFace
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
+import sqlite3
+sqlite3.sqlite_version  # Força a verificação
+
 
 # 1. Carrega seu PDF
 loader = PyPDFLoader("data/Procuradoria Geral - Normas.pdf")
