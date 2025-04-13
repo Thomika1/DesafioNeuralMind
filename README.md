@@ -11,27 +11,31 @@ Assistente virtual para tirar dúvidas sobre o vestibular da Unicamp 2025, basea
 ## Como executar localmente
 
 ### 1. Clone o repositório
+```
 git clone https://github.com/Thomika1/DesafioNeuralMind
-
+```
 
 ### 2. Configure o ambiente
 Crie um arquivo .env na raiz do projeto com:
+```
 GROQ_API_KEY="sua-chave-groq-aqui"
-
+```
 ### 3. Instale as dependências
 Opção A (com Poetry):
+```
 poetry install
-
+```
 Opção B (com pip):
+```
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 .\venv\Scripts\activate  # Windows
 pip install -r requirements.txt
-
+```
 ### 4. Execute o chatbot
-
+```
 streamlit run app.py
-
+```
 ## Tecnologias utilizadas
 
 - Framework: Streamlit
