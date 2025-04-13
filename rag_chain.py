@@ -13,12 +13,12 @@ from langchain_community.embeddings import FastEmbedEmbeddings
 import streamlit as st 
 from chromadb.config import Settings
 
+# Configuracoes do chroma
 client_settings = Settings(
     chroma_db_impl="duckdb+parquet",
     persist_directory="./chroma_db",
     anonymized_telemetry=False
 )
-
 
 load_dotenv()
 
@@ -38,6 +38,7 @@ def get_answer(user_input):
     docs = retriever.get_relevant_documents(user_input)
     context = "\n\n".join([doc.page_content for doc in docs])
 
+    # Prompt incial
     prompt = ChatPromptTemplate.from_template("""
     Você é um assistente que irá responder perguntas e dúvidas sobre o vestibular da unicamp 2025 com base nos arquivos de normas da procuradoria 
     geral Resolução GR-029/2024, de 10/07/2024.
@@ -49,5 +50,6 @@ def get_answer(user_input):
     {question}
     """)
 
+    # Define a chain
     chain = prompt | llm | StrOutputParser()
     return chain.invoke({"context": context, "question": user_input})

@@ -15,24 +15,24 @@ client_settings = Settings(
     anonymized_telemetry=False
 )
 
-
-# 1. Carrega seu PDF
+# Carrega o PDF
 loader = PyPDFLoader("data/Procuradoria Geral - Normas.pdf")
 docs = loader.load()
 
-# 2. Divide em pedaços menores (ex: 500 tokens com 50 de sobreposição)
+# Splitta o texto em tokens
 text_splitter = sp.RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
 chunks = text_splitter.split_documents(docs)
 
-# 3. Embeddings
+# Embeddings
 embedding = em.FastEmbedEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
-# 4. Salva no Chroma
+# Salva no Chroma
 vectorstore = Chroma.from_documents(
     documents=chunks,
     embedding=embedding,
     persist_directory="./chroma_db"
 )
 
+# Mensagem de verificacao
 vectorstore.persist()
 print("✅ Documentos indexados!")
