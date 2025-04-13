@@ -5,5 +5,5 @@ langchain_groq==0.3.2
 python-dotenv==1.1.0
 streamlit==1.44.1
 fastembed
+pysqlite3-binary
 chromadb
-sqlite3 
