@@ -5,12 +5,13 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import FastEmbedEmbeddings
+import streamlit as st 
 
 load_dotenv()
 
 # Carrega o modelo LLM da Groq
 llm = ChatGroq(
-    groq_api_key=os.getenv("GROQ_API_KEY"),
+    groq_api_key=os.getenv("GROQ_API_KEY") or st.secrets["GROQ_API_KEY"] ,
     model_name="llama3-70b-8192"
 )
 
