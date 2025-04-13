@@ -6,4 +6,4 @@ python-dotenv==1.1.0
 streamlit==1.44.1
 fastembed
 pysqlite3-binary
-chromadb
+chromadb>=0.4.15
