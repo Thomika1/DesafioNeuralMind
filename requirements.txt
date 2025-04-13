@@ -4,6 +4,6 @@ langchain_core==0.3.51
 langchain_groq==0.3.2
 python-dotenv==1.1.0
 streamlit==1.44.1
-fastembed
-pysqlite3-binary>=1.0.0
 chromadb>=0.4.15
+pysqlite3-binary>=1.0.0
+fastembed>=0.2.0

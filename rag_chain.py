@@ -1,10 +1,8 @@
 __import__('pysqlite3')
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
-
 import sqlite3
 sqlite3.sqlite_version  # Força a verificação
-
 import os
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
@@ -13,7 +11,13 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import FastEmbedEmbeddings
 import streamlit as st 
+from chromadb.config import Settings
 
+client_settings = Settings(
+    chroma_db_impl="duckdb+parquet",
+    persist_directory="./chroma_db",
+    anonymized_telemetry=False
+)
 
 
 load_dotenv()
