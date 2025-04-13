@@ -11,7 +11,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import FastEmbedEmbeddings
 import streamlit as st 
-from Chroma import Settings
+from chromadb.config import Settings
 
 client_settings = Settings(
     chroma_db_impl="duckdb+parquet",
