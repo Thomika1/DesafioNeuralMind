@@ -17,8 +17,9 @@ Assistente virtual para tirar dúvidas sobre o vestibular da Unicamp 2025, basea
 git clone https://github.com/Thomika1/DesafioNeuralMind
 ```
 
-### 2. Configure o ambiente
+### 2. Configure a variável de ambiente
 Crie um arquivo .env na raiz do projeto com:
+
 ```
 GROQ_API_KEY="sua-chave-groq-aqui"
 ```
@@ -28,6 +29,8 @@ Opção A (com Poetry):
 poetry install
 ```
 Opção B (com pip):
+
+*Se o terminal usado é alternativo ao padrão do linux (exemplo: fish) o comando para ativar o ambiente virtual pode mudar*
 ```
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
