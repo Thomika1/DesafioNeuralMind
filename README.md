@@ -49,11 +49,24 @@ streamlit run app.py
 
 ## Estrutura do projeto
 ```
-app.py                # Aplicação principal
-rag_chain.py          # Lógica do RAG
-chroma_db/            # Banco de dados vetorial
-.env                  # Variáveis de ambiente
-requirements.txt      # Dependências
+.
+├── chroma_db/                            # Banco vetorial (ChromaDB) com os embeddings persistidos
+├── data/                                 # Arquivos utilizados e gerados na avaliação
+│   ├── Procuradoria Geral - Normas.pdf   # Documento base (normas da Unicamp)
+│   ├── freq_quest.json                   # Perguntas frequentes usadas para avaliação
+│   ├── avaliacao_chatbot.json            # JSON contendo perguntas e respostas esperadas
+│   ├── resultados_chatbot.json           # Resultados gerados após testes de acurácia
+├── .env                                  # Variáveis de ambiente (API keys, configs)
+├── .gitignore                            # Arquivos e pastas ignorados pelo Git
+├── indexador.py                          # Script que carrega, divide e indexa o PDF no ChromaDB
+├── main.py                               # Interface principal do chatbot (ex: Streamlit app)
+├── rag_chain.py                          # Lógica do RAG (Retrieval-Augmented Generation)
+├── testAccuracy.py                       # Executa testes automáticos com perguntas e salva os resultados
+├── calculo_acuracia.py                   # Faz a análise de similaridade e acurácia
+├── text.py                               # Script para melhorar a estrutura do documento que irá alimentar o modelo
+├── requirements.txt                      # Lista de dependências do projeto
+└── README.md                             # Este arquivo de documentação
+
 ```
 
 ## Testes
