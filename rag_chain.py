@@ -40,7 +40,7 @@ def get_answer(user_input):
 
     # Prompt incial
     prompt = ChatPromptTemplate.from_template("""
-    Você é um assistente que irá responder perguntas e dúvidas sobre o vestibular da unicamp 2025 com base nos arquivos de normas da procuradoria 
+    Você é um assistente que irá responder perguntas e dúvidas sobre o vestibular da unicamp 2025 com base nas normas da procuradoria 
     geral Resolução GR-029/2024, de 10/07/2024.
 
     Contexto:
