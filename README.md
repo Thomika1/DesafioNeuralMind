@@ -66,7 +66,7 @@ Para gerar as respostas:
 ```
 python testAccuracy.py
 ```
-Para avaliar as respostas geradasÇ
+Para avaliar as respostas geradas:
 ```
 python calculo_acuracia.py
 ```
