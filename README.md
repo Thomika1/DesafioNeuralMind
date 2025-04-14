@@ -12,8 +12,8 @@ Assistente virtual para tirar dúvidas sobre o vestibular da Unicamp 2025, basea
 
 ## Como executar localmente
 
-Importante: comente a linha ```__import__('pysqlite3')``` e ```sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')```
-para rodar localmente, essas linhas são usadas para que o chatbot rode no cloud da streamlit.
+Importante: comente as linha ```__import__('pysqlite3')``` e ```sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')```
+do arquivo rag_chain.py para rodar localmente. Essas linhas são usadas para que o chatbot rode no cloud da streamlit, porém acarretam em erros ao rodar localmente.
 
 ### 1. Clone o repositório
 ```
