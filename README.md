@@ -12,6 +12,9 @@ Assistente virtual para tirar dúvidas sobre o vestibular da Unicamp 2025, basea
 
 ## Como executar localmente
 
+Importante: comente a linha ```__import__('pysqlite3')``` e ```sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')```
+para rodar localmente, essas linhas são usadas para que o chatbot rode no cloud da streamlit.
+
 ### 1. Clone o repositório
 ```
 git clone https://github.com/Thomika1/DesafioNeuralMind
