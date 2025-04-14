@@ -1,0 +1,42 @@
+[
+    {
+      "pergunta": "Quantos Vestibulares são realizados por ano?",
+      "resposta_esperada": "A Unicamp realiza apenas um Vestibular anual, com a primeira fase no final de novembro e a segunda fase em janeiro. Veja o calendário. Também há outras formas de ingresso na graduação, como Vestibular Indígena, Edital-Enem Unicamp e Edital de Vagas Olímpicas. Consulte datas e informações na aba “Ingresso”."
+    },
+    {
+        "pergunta": "Qual a taxa de inscrição do Vestibular?",
+        "resposta_esperada": "A taxa de inscrição para o Vestibular Unicamp 2025 será de 210,00 reais."
+    },
+    {
+        "pergunta": "Quem tem direito à isenção da taxa de inscrição para o Vestibular e para o Enem?",
+        "resposta_esperada": "Para ter direito à isenção o candidato deve preencher alguns requisitos como já ter concluído ou estar concluindo este ano o ensino médio. "
+    },
+    {
+        "pergunta": "A Unicamp oferece bolsas aos estudantes que necessitam?",
+        "resposta_esperada": "Sim. A Unicamp tem um amplo programa de permanência estudantil para os estudantes que necessitam de auxílios, com diferentes tipos de bolsas. Para saber mais, acesse a página da Diretoria Executiva de Apoio Estudantil."
+    },
+    {
+        "pergunta": "O Vestibular Unicamp aceita candidatos treineiros(as)? ?",
+        "resposta_esperada": "Sim. Candidatos(as) que ainda não concluíram o ensino médio, e não irão concluir até o ano de ingresso na Unicamp, podem se inscrever e devem escolher uma das seguintes carreiras: Treineiros de Ciências Humanas/Artes; Treineiros de Ciências Exatas/Tecnológicas e Treineiros de Ciências Biológicas/Saúde. Os candidatos das carreiras de treineiros terão sua classificação divulgada e receberão um certificado de participação. Os estudantes desse perfil não participam das Provas de Habilidades Específicas e não são convocados para matrícula."
+    },
+    {   
+        "pergunta": "A Unicamp aceita transferência de alunos de outras universidades?",
+        "resposta_esperada": "A transferência é feita através do processo para preenchimento de Vagas Remanescentes. As inscrições serão feitas através desta página. Todas as informações estão no link “Vagas Remanescentes”."
+    },
+    {
+        "pergunta": "É possível tentar entrar na Unicamp pelo Enem e pelo Vestibular, no mesmo ano, ou devo escolher uma das opções?",
+        "resposta_esperada": "É possível tentar o ingresso por essas duas opções, desde que o estudante realize as inscrições nas datas previstas e se encaixe no perfil. Também há a opção de inscrição automática para o Enem-Unicamp no ato da inscrição para o Vestibular Unicamp."
+    },
+    {
+        "pergunta": "A Unicamp oferece alojamento para os candidatos no dia da prova?",
+        "resposta_esperada": "Não."
+    },
+    {
+        "pergunta": "Posso me matricular numa outra IES pública antes de sair o resultado da Unicamp? Isso não me eliminará do processo do vestibular?",
+        "resposta_esperada": "Os convocados para matrícula na Unicamp que já estiverem matriculados em outro curso de graduação de instituição pública de ensino superior brasileira – federal, estadual ou municipal – deverão optar e confirmar sua matrícula em apenas uma instituição. Caso contrário, terão a matrícula na Unicamp cancelada automaticamente."
+    },
+    {
+        "pergunta": "O Vestibular Unicamp tem provas e locais adaptados para candidatos com deficiência(s)?",
+        "resposta_esperada": "Sim. O candidato com deficiência ou em condições que exijam recursos específicos para realizar as provas deverá solicitar e informar no campo específico da ficha de inscrição suas necessidades e anexar os documentos relacionados, conforme indicado no Manual do Ingresso."
+    }
+  ]
