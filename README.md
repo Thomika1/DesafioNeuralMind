@@ -71,6 +71,13 @@ Para avaliar as respostas geradasÇ
 python calculo_acuracia.py
 ```
 
+## Conclusões testes
+De acordo com os testes realizados, a similaridade média obtida foi de 0.5514, considerando que essa métrica varia de 0 a 1.0, sendo que valores mais altos indicam maior proximidade semântica entre a resposta gerada pelo modelo e a resposta esperada.
+
+Observou-se um desvio significativo na média devido a perguntas específicas. Por exemplo, a pergunta "A Unicamp oferece alojamento para os candidatos no dia da prova?" obteve uma similaridade de apenas 0.14, mesmo com uma resposta correta, o que evidencia limitações na avaliação puramente semântica.
+
+Esse tipo de discrepância contribuiu para a redução da média geral de similaridade, indicando que, apesar de o modelo fornecer respostas adequadas em diversos casos, a métrica de similaridade semântica nem sempre reflete corretamente a qualidade da resposta.
+
 ## Documentação relevante
 Edital Unicamp 2025: https://www.pg.unicamp.br/norma/31879/0
 API Groq: https://console.groq.com/docs
