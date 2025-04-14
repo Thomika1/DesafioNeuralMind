@@ -2,6 +2,7 @@ import streamlit as st
 from rag_chain import get_answer
 import time
 
+
 # Configuracao da pagina
 st.set_page_config(
     page_title="Chatbot vestibular Unicamp",
@@ -49,7 +50,7 @@ if prompt := st.chat_input("Digite aqui"):
     with st.chat_message("assistant"):
         st.caption(f"🕒 Tempo de resposta: {end - start:.2f} segundos")
         st.markdown(resposta)
-        
+
     # Adicionar resposta ao histórico
     st.session_state.messages.append({"role": "assistant", "content": resposta})
     
