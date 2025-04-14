@@ -7,5 +7,3 @@ __pycache__/
 venv/
 .env
 
-#tudo que esta dentro dos dados gerados
-chroma_db/
