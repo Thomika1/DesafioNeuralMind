@@ -55,6 +55,22 @@ chroma_db/            # Banco de dados vetorial
 .env                  # Variáveis de ambiente
 requirements.txt      # Dependências
 ```
+
+## Testes
+
+Bibliotecas necessárias:
+```
+pip install tqdm sentence-transformers scikit-learn
+```
+Para gerar as respostas:
+```
+python testAccuracy.py
+```
+Para avaliar as respostas geradasÇ
+```
+python calculo_acuracia.py
+```
+
 ## Documentação relevante
 Edital Unicamp 2025: https://www.pg.unicamp.br/norma/31879/0
 API Groq: https://console.groq.com/docs
