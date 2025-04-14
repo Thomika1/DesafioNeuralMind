@@ -1,0 +1,62 @@
+[
+  {
+    "pergunta": "Quantos Vestibulares são realizados por ano?",
+    "resposta_esperada": "A Unicamp realiza apenas um Vestibular anual, com a primeira fase no final de novembro e a segunda fase em janeiro. Veja o calendário. Também há outras formas de ingresso na graduação, como Vestibular Indígena, Edital-Enem Unicamp e Edital de Vagas Olímpicas. Consulte datas e informações na aba “Ingresso”.",
+    "resposta_gerada": "De acordo com a Resolução GR-029/2024, de 10/07/2024, não há menção específica ao número de vestibulares realizados por ano. Portanto, não posso responder exatamente à pergunta. No entanto, é comum que a Unicamp realize um vestibular por ano.",
+    "similaridade": 0.7585904598236084
+  },
+  {
+    "pergunta": "Qual a taxa de inscrição do Vestibular?",
+    "resposta_esperada": "A taxa de inscrição para o Vestibular Unicamp 2025 será de 210,00 reais.",
+    "resposta_gerada": "De acordo com a Resolução GR-029/2024, de 10/07/2024, o valor da Taxa de Inscrição não é especificado. No entanto, é mencionado que a inscrição será feita exclusivamente mediante preenchimento de Formulário de Inscrição na página da Comvest (www.comvest.unicamp.br) e recolhimento do valor da Taxa de Inscrição, por meio de boleto bancário emitido ao final do preenchimento do formulário.",
+    "similaridade": 0.5841031074523926
+  },
+  {
+    "pergunta": "Quem tem direito à isenção da taxa de inscrição para o Vestibular e para o Enem?",
+    "resposta_esperada": "Para ter direito à isenção o candidato deve preencher alguns requisitos como já ter concluído ou estar concluindo este ano o ensino médio. ",
+    "resposta_gerada": "De acordo com a Resolução GR-029/2024, de 10/07/2024, não há menção explícita sobre a isenção da taxa de inscrição para o Vestibular Unicamp. No entanto, é comum que as instituições de ensino público ofereçam isenção de taxa de inscrição para candidatos que se enquadram em determinadas condições, como por exemplo, ser membro de família de baixa renda, ser estudante de escola pública, ou ter deficiência.\n\nJá para o ENEM, é possível verificar as informações sobre a isenção da taxa de inscrição no site do Inep (Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira).\n\nÉ importante verificar as informações mais atualizadas e específicas sobre a isenção da taxa de inscrição para o Vestibular Unicamp 2025 na página da Comvest (www.comvest.unicamp.br) ou em contato direto com a instituição.",
+    "similaridade": 0.48393404483795166
+  },
+  {
+    "pergunta": "A Unicamp oferece bolsas aos estudantes que necessitam?",
+    "resposta_esperada": "Sim. A Unicamp tem um amplo programa de permanência estudantil para os estudantes que necessitam de auxílios, com diferentes tipos de bolsas. Para saber mais, acesse a página da Diretoria Executiva de Apoio Estudantil.",
+    "resposta_gerada": "Sim, a Unicamp oferece bolsas aos estudantes que necessitam. De acordo com a Resolução GR-029/2024, de 10/07/2024, a Unicamp disponibiliza bolsas de estudo para estudantes que comprovem necessidade financeira, visando a garantir o acesso e a permanência de estudantes de baixa renda na instituição.",
+    "similaridade": 0.755478024482727
+  },
+  {
+    "pergunta": "O Vestibular Unicamp aceita candidatos treineiros(as)? ?",
+    "resposta_esperada": "Sim. Candidatos(as) que ainda não concluíram o ensino médio, e não irão concluir até o ano de ingresso na Unicamp, podem se inscrever e devem escolher uma das seguintes carreiras: Treineiros de Ciências Humanas/Artes; Treineiros de Ciências Exatas/Tecnológicas e Treineiros de Ciências Biológicas/Saúde. Os candidatos das carreiras de treineiros terão sua classificação divulgada e receberão um certificado de participação. Os estudantes desse perfil não participam das Provas de Habilidades Específicas e não são convocados para matrícula.",
+    "resposta_gerada": "De acordo com a Resolução GR-029/2024, de 10/07/2024, não há menção a restrições ou proibições para candidatos treineiros(as) participarem do Vestibular Unicamp 2025. Portanto, é possível concluir que o Vestibular Unicamp aceita candidatos treineiros(as).",
+    "similaridade": 0.6327354907989502
+  },
+  {
+    "pergunta": "A Unicamp aceita transferência de alunos de outras universidades?",
+    "resposta_esperada": "A transferência é feita através do processo para preenchimento de Vagas Remanescentes. As inscrições serão feitas através desta página. Todas as informações estão no link “Vagas Remanescentes”.",
+    "resposta_gerada": "De acordo com a Resolução GR-029/2024, não há menção específica à transferência de alunos de outras universidades. No entanto, é importante notar que o Art. 12 estabelece que candidatos que já tenham concluído curso de graduação ou pós-graduação em Instituições de Ensino Superior públicas brasileiras não poderão se beneficiar do PAAIS ou de reserva de vagas (cotas) para autodeclarados(as) pretos(as) e pardos(as).\n\nAlém disso, o Art. 38 estabelece que o aproveitamento de estudos de disciplinas cabe exclusivamente à Diretoria Acadêmica – DAC, e exige o upload de documentos específicos no Sistema de Gestão Acadêmica (SIGA).\n\nPortanto, não há uma resposta direta sobre a aceitação de transferência de alunos de outras universidades. É recomendável que os candidatos interessem em transferência consultem a Unicamp ou a Diretoria Acadêmica – DAC para obter mais informações sobre os procedimentos e requisitos específicos.",
+    "similaridade": 0.48536741733551025
+  },
+  {
+    "pergunta": "É possível tentar entrar na Unicamp pelo Enem e pelo Vestibular, no mesmo ano, ou devo escolher uma das opções?",
+    "resposta_esperada": "É possível tentar o ingresso por essas duas opções, desde que o estudante realize as inscrições nas datas previstas e se encaixe no perfil. Também há a opção de inscrição automática para o Enem-Unicamp no ato da inscrição para o Vestibular Unicamp.",
+    "resposta_gerada": "De acordo com a Resolução GR-029/2024, de 10/07/2024, não há restrição para o candidato se inscrever em ambos os processos seletivos, Enem e Vestibular, no mesmo ano. Portanto, sim, é possível tentar entrar na Unicamp pelo Enem e pelo Vestibular, no mesmo ano.",
+    "similaridade": 0.5883499383926392
+  },
+  {
+    "pergunta": "A Unicamp oferece alojamento para os candidatos no dia da prova?",
+    "resposta_esperada": "Não.",
+    "resposta_gerada": "De acordo com a Resolução GR-029/2024, não há menção à oferta de alojamento para os candidatos no dia da prova. Portanto, a resposta é não, a Unicamp não oferece alojamento para os candidatos no dia da prova.",
+    "similaridade": 0.1471898853778839
+  },
+  {
+    "pergunta": "Posso me matricular numa outra IES pública antes de sair o resultado da Unicamp? Isso não me eliminará do processo do vestibular?",
+    "resposta_esperada": "Os convocados para matrícula na Unicamp que já estiverem matriculados em outro curso de graduação de instituição pública de ensino superior brasileira – federal, estadual ou municipal – deverão optar e confirmar sua matrícula em apenas uma instituição. Caso contrário, terão a matrícula na Unicamp cancelada automaticamente.",
+    "resposta_gerada": "De acordo com a Resolução GR-029/2024, de 10/07/2024, art. 10, \"O candidato que realizar inscrição no VU 2025 e, posteriormente, se matricular em outra Instituição de Ensino Superior (IES) pública, perderá o direito à vaga na Unicamp, caso seja aprovado no VU 2025.\"\n\nPortanto, sim, se você se matricular em outra IES pública antes de sair o resultado da Unicamp, isso pode eliminar você do processo do vestibular. É importante ter cuidado e considerar as consequências antes de tomar essa decisão.",
+    "similaridade": 0.5438417792320251
+  },
+  {
+    "pergunta": "O Vestibular Unicamp tem provas e locais adaptados para candidatos com deficiência(s)?",
+    "resposta_esperada": "Sim. O candidato com deficiência ou em condições que exijam recursos específicos para realizar as provas deverá solicitar e informar no campo específico da ficha de inscrição suas necessidades e anexar os documentos relacionados, conforme indicado no Manual do Ingresso.",
+    "resposta_gerada": "Sim, o Vestibular Unicamp 2025 oferece provas e locais adaptados para candidatos com deficiência(s). De acordo com a Resolução GR-029/2024, a Unicamp garantirá a acessibilidade e a inclusão de candidatos com deficiência, proporcionando condições adequadas para a realização das provas.",
+    "similaridade": 0.5342775583267212
+  }
+]
