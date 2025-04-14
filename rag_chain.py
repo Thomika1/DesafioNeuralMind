@@ -1,8 +1,11 @@
+
+# Comente as linhas abaixo caso queira rodar localmente
 __import__('pysqlite3')
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import sqlite3
-sqlite3.sqlite_version  # Força a verificação
+sqlite3.sqlite_version  
+# Comente as linhas a cima caso queira rodar localmente
 import os
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
@@ -28,12 +31,12 @@ llm = ChatGroq(
     model_name="llama3-70b-8192"
 )
 
-# Exemplo de vetor store (você pode adaptar com documentos reais)
+# Vector store
 embedding = FastEmbedEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 vectorstore = Chroma(persist_directory="./chroma_db", embedding_function=embedding)
 retriever = vectorstore.as_retriever()
 
-# Pipeline básica com prompt
+# Pipeline 
 def get_answer(user_input):
     docs = retriever.get_relevant_documents(user_input)
     context = "\n\n".join([doc.page_content for doc in docs])
